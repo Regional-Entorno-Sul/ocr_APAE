@@ -14,7 +14,8 @@ Com a finalidade de tornar o processamento das informações contidas neste arqu
 6)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat";  
 7)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "txt_out", haverá um arquivo com o nome "apae_sifilis.txt". Este é o arquivo de texto resultado do processamento do programa;  
 
-
+## Créditos
+Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas para 
 
 
 
