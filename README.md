@@ -15,7 +15,12 @@ Com a finalidade de tornar o processamento das informações contidas neste arqu
 7)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "txt_out", haverá um arquivo com o nome "apae_sifilis.txt". Este é o arquivo de texto resultado do processamento do programa;  
 
 ## Créditos
-Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas para 
+Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas para tornar possível o resultado final.  
+*NAPS2 (https://www.naps2.com)* - NAPS2 é um programa para digitalização de documentos gratuito e de código fonte aberto para Windows, Mac e Linux. Neste projeto, o NAPS2 é utilizado para realizar a transformação das imagens contidas no arquivo PDF em um arquivo PDF com texto editável, para isso o NAPS2 usa o recurso de reconhecimento optico de caracteres (OCR), nativo do produto. *XpdfReader (https://www.xpdfreader.com)* - XpdfReader é um projeto de código aberto que possui uma coleção de ferramentas que rodam em linha de comando que permitem realizar várias funções em arquivos PDF. No projeto "ocr_APAE" é usada uma destas ferramentas, o "pdftotext", que trasnforma um arquivo PDF editável em um arquivo de texto (formato txt).  
+
+
+
+
 
 
 
