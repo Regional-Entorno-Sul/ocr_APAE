@@ -1,5 +1,5 @@
 # **ocr_APAE**  
-Processamento em OCR de arquivos de dados da APAE para uso em regional de saúde.
+**Processamento em OCR de arquivos de dados da APAE para uso em regional de saúde.**
 
 Esse projeto tem como objetivo facilitar o processamento de arquivo no formato PDF com dados de sorologia de pacientes atendidos pela APAE de Goiânia.  
 Os dados contidos neste são imagens, o que dificulta a manipulação das informações contidas neste documento.  
