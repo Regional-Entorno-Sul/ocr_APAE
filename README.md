@@ -19,7 +19,7 @@ Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas
 
 *NAPS2 (https://www.naps2.com)* - NAPS2 é um programa para digitalização de documentos gratuito e de código fonte aberto para Windows, Mac e Linux. Neste projeto, o NAPS2 é utilizado para realizar a transformação das imagens contidas no arquivo PDF em um arquivo PDF com texto editável, para isso o NAPS2 usa o recurso de reconhecimento optico de caracteres (OCR), nativo do produto. 
   
-*XpdfReader (https://www.xpdfreader.com)* - XpdfReader é um projeto de código aberto que possui uma coleção de ferramentas que rodam em linha de comando que permitem realizar várias funções em arquivos PDF. No projeto "ocr_APAE" é usada uma destas ferramentas, o "pdftotext", que transforma um arquivo PDF editável em um arquivo de texto (formato txt).  
+*XpdfReader (https://www.xpdfreader.com)* - XpdfReader é um projeto gratuito e de código aberto que possui uma coleção de ferramentas que rodam em linha de comando que permitem realizar várias funções em arquivos PDF. No projeto "ocr_APAE" é usada uma destas ferramentas, o "pdftotext", que transforma um arquivo PDF editável em um arquivo de texto (formato txt).  
 
   
 
