@@ -21,6 +21,9 @@ Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas
   
 *XpdfReader (https://www.xpdfreader.com)* - XpdfReader é um projeto gratuito e de código aberto que possui uma coleção de ferramentas que rodam em linha de comando que permitem realizar várias funções em arquivos PDF. No projeto "ocr_APAE" é usada uma destas ferramentas, o "pdftotext", que transforma um arquivo PDF editável em um arquivo de texto (formato txt).  
 
+*iconv for Windows (https://github.com/mlocati/gettext-iconv-windows)* - é um projeto de código aberto que compila o iconv usado no Linux e mantido pela Free Software Foundation em um arquivo binário para execução no sistema operacional Windows. No ocr_APAE, o iconv foi usado para fazer a transliteração do arquivo de texto gerado do XpdfReader, separando a acentuação dos caracteres.  
+
+
   
 
 
