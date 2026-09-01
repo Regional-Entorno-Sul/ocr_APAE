@@ -23,7 +23,9 @@ Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas
 
 *iconv for Windows (https://github.com/mlocati/gettext-iconv-windows)* - é um projeto de código aberto que compila o iconv usado no Linux e mantido pela Free Software Foundation em um arquivo binário para execução no sistema operacional Windows. No "ocr_APAE", o iconv foi usado para fazer a transliteração do arquivo de texto gerado do XpdfReader, separando a acentuação dos caracteres.  
 
+*Gawk for Windows (https://gnuwin32.sourceforge.net/packages/gawk.htm)* - AWK é uma linguagem de programação interpretada projetada para processar, filtrar e manipular dados em arquivos de texto. No gawk for Windows, a letra "g" junto ao awk, significa GNU, que é um sistema operacional tipo Unix, criado para oferecer um sistema completo e totalmente composto por software livre. Nessa implementação para o Windows, o AWK é usado, no "ocr_APAE", para remover a acentuação aguda no arquivo de texto após a transliteração executada pelo "iconv for Windows";  
 
+*sed for Windows (https://gnuwin32.sourceforge.net/packages/sed.htm)* - Assim como o Gawk for Windows, o sed for Windows é outro projeto gratuito e de código aberto, apoiado e mantido pela Free Software Foundation. O sed é um editor de fluxo (stream editor) usado para filtragem e transformação de texto. No "ocr_APAE", o sed é usado para remover caracteres de acentuação soltos no texto, remoção de linhas em branco, remover linhas de texto em que ocorrem determinadas palavras no texto, etc.  
   
 
 
