@@ -6,6 +6,7 @@ Os dados contidos neste arquivo são imagens, o que dificulta a manipulação da
 Com a finalidade de tornar o processamento das informações contidas neste arquivo mais fácil, rápido e eficiente, o projeto OCR_APAE converte os dados do documento PDF de imagens para um documento PDF com texto editável. Em seguida este último arquivo criado é transformado em um arquivo de texto, que pode ser trabalhado em qualquer ferramenta de processamento de texto, como o bloco de notas do Windows, por exemplo.
 
 ## Como usar?
+*Instruções de uso válidas até a versão 1.6.*
 1)Faça o download do arquivo da última versão do programa. O arquivo sempre estará no formato zip;  
 2)Descompacte o arquivo usando algum utilitário para extração de arquivos zipados. Ao final do processo de descompactação, haverá uma pasta com o nome "ocr_APAE";  
 3)Copie esta pasta para o disco local C ou unidade C da unidade de armazenamento do PC que você está usando;  
