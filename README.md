@@ -15,6 +15,56 @@ __*Instruções de uso válidas até a versão 1.6.*__
 6)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat";  
 7)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "txt_out", haverá um arquivo com o nome "apae_sifilis.txt". Este é o arquivo de texto resultado do processamento do programa;  
 
+__*Instruções de uso para versões 1.7 a 1.8.*__  
+1)Faça o download do arquivo da última versão do programa. O arquivo sempre estará no formato zip;  
+2)Descompacte o arquivo usando algum utilitário para extração de arquivos zipados. Ao final do processo de descompactação, haverá uma pasta com o nome "ocr_APAE";  
+3)Copie esta pasta para o disco local C ou unidade C da unidade de armazenamento do PC que você está usando;  
+4)Dentro da pasta "ocr_APAE", procure a subpasta "original_PDF" e coloque o arquivo PDF original criado pela APAE;  
+5)Renomeie esse arquivo PDF original da APAE para o nome "sifilis.pdf";  
+6)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat";  
+7)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "temp", haverá um arquivo com o nome "apae_sif_fase21.txt". Este é o arquivo de texto resultado do processamento do programa;  
+
+__*Instruções de uso para versão 1.9.*__  
+1)Faça o download do arquivo da última versão do programa. O arquivo sempre estará no formato zip;  
+2)Descompacte o arquivo usando algum utilitário para extração de arquivos zipados. Ao final do processo de descompactação, haverá uma pasta com o nome "ocr_APAE";  
+3)Copie esta pasta para o disco local C ou unidade C da unidade de armazenamento do PC que você está usando;  
+4)Dentro da pasta "ocr_APAE", procure a subpasta "original_PDF" e coloque o arquivo PDF original criado pela APAE;  
+5)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat";  
+6)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "temp", haverá um arquivo com o nome "apae_sif_fase21.txt". Este é o arquivo de texto resultado do processamento do programa;  
+
+__*Instruções de uso para versão 2.0 a 2.2.*__  
+1)Faça o download do arquivo da última versão do programa. O arquivo sempre estará no formato zip;  
+2)Descompacte o arquivo usando algum utilitário para extração de arquivos zipados. Ao final do processo de descompactação, haverá uma pasta com o nome "ocr_APAE";  
+3)Copie esta pasta para o disco local C ou unidade C da unidade de armazenamento do PC que você está usando;  
+4)Dentro da pasta "ocr_APAE", procure a subpasta "original_PDF" e coloque o arquivo PDF original criado pela APAE;  
+5)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat" com o argumento "--transformer";  
+
+![x](/pictures/transformer.jpg)
+
+6)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "temp", haverá um arquivo com o nome "apae_sif_fase21.txt". Este é o arquivo de texto resultado do processamento do programa;  
+
+__*Instruções de uso para as versões 2.3 a 2.4.*__  
+1)Faça o download do arquivo da última versão do programa. O arquivo sempre estará no formato zip;  
+2)Descompacte o arquivo usando algum utilitário para extração de arquivos zipados. Ao final do processo de descompactação, haverá uma pasta com o nome "ocr_APAE";  
+3)Copie esta pasta para o disco local C ou unidade C da unidade de armazenamento do PC que você está usando;  
+4)Dentro da pasta "ocr_APAE", procure a subpasta "original_PDF" e coloque o arquivo PDF original criado pela APAE;  
+5)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat" com o argumento "--transformer";  
+
+![x](/pictures/transformer.jpg)
+
+6)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "temp", nela haverá uma série de arquivos de texto com o nome iniciado por números. Estes arquivos de texto são o resultado final do processamento do programa e contém, cada um, dados individualizados dos pacientes do arquivo PDF original;  
+
+__*Instruções de uso para versão 2.5.*__  
+1)Faça o download do arquivo da última versão do programa. O arquivo sempre estará no formato zip;  
+2)Descompacte o arquivo usando algum utilitário para extração de arquivos zipados. Ao final do processo de descompactação, haverá uma pasta com o nome "ocr_APAE";  
+3)Copie esta pasta para o disco local C ou unidade C da unidade de armazenamento do PC que você está usando;  
+4)Dentro da pasta "ocr_APAE", procure a subpasta "original_PDF" e coloque o arquivo PDF original criado pela APAE;  
+5)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat" com o argumento "--transformer";  
+
+![x](/pictures/transformer.jpg)
+
+6)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "temp", nela haverá uma série de arquivos de texto com o nome iniciado pelo símbolo "#" (cerquilha). Estes arquivos de texto são o resultado final do processamento do programa e contém, cada um, dados individualizados dos pacientes do arquivo PDF original;  
+
 ## Créditos
 Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas para tornar possível o resultado final.  
 
