@@ -65,6 +65,17 @@ __*Instruções de uso para versão 2.5.*__
 
 6)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "temp", nela haverá uma série de arquivos de texto com o nome iniciado pelo símbolo "#" (cerquilha). Estes arquivos de texto são o resultado final do processamento do programa e contém, cada um, dados individualizados dos pacientes do arquivo PDF original;  
 
+__*Instruções de uso para versão 2.6.*__  
+1)Faça o download do arquivo da última versão do programa. O arquivo sempre estará no formato zip;  
+2)Descompacte o arquivo usando algum utilitário para extração de arquivos zipados. Ao final do processo de descompactação, haverá uma pasta com o nome "ocr_APAE";  
+3)Copie esta pasta para o disco local C ou unidade C da unidade de armazenamento do PC que você está usando;  
+4)Dentro da pasta "ocr_APAE", procure a subpasta "original_PDF" e coloque o arquivo PDF original criado pela APAE;  
+5)Dentro da pasta "ocr_APAE", procure a subpasta "bat" e rode o arquivo "run_apae.bat" com o argumento "--transformer";  
+
+![x](/pictures/transformer.jpg)
+
+6)Quando o processo terminar, procure na pasta "ocr_APAE" a subpasta "out", nela haverá uma série de arquivos de texto com o nome iniciado pelo símbolo "#" (cerquilha). Estes arquivos de texto são o resultado final do processamento do programa e contém, cada um, dados individualizados dos pacientes do arquivo PDF original;  
+
 ## Créditos
 Para realizar o processamento do arquivo, o "ocr_APAE" utiliza vários programas para tornar possível o resultado final.  
 
